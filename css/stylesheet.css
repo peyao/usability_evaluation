@@ -1,0 +1,143 @@
+/* Leicester Orange (color: #ff531c;) */
+body {
+    background-image: url("../img/subtle_patterns/pixel_weave.png");   
+}
+
+/*
+---------
+Title Bar
+---------
+*/
+#title_bar {
+    margin-top: 10px;
+    padding: 15px 15px 15px 0px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-image: url("../img/subtle_patterns/pw_maze_white.png");
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    box-shadow: 3px 3px 3px #888888;
+}
+
+#title_text {
+    
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    
+    font-size:160%;
+    color: black;
+}
+
+/*
+#home_link {
+    margin-left: 0px;
+    color: black;
+    font-size: 20px;
+}
+
+#home_link:hover {
+    color: #fc7448;
+}*/
+
+/*
+--------------------------
+Nav Bar (within Title Bar)
+--------------------------
+*/
+#title_navbar {
+    /*opacity: 0.5;*/
+    margin-left: 30px;
+    margin-top: 0px;
+    border: 0px dotted #000;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse {
+    background-image: url("../img/subtle_patterns/kindajean.png");
+}
+
+
+#home_link {
+    color: black;
+    margin: 0px 0px 0px -10px;
+    padding-bottom: 0px;
+}
+
+#home_link:hover {
+    color: #fc7448;
+    text-decoration: none;
+}
+
+
+.navbar .nav > li > a {
+    color: black;
+    padding: 10px 10px 10px 10px;
+    margin-top: -5px;
+}
+
+.navbar .nav > li > a:hover {
+    color: #fc7448;
+}
+
+.navHeaderCollapse {
+    /*
+    margin-left: 30px;
+    margin-top: -5px;*/
+}
+
+/*
+-----------------------
+Nav Bar Collapse Button
+-----------------------
+*/
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #535353;
+}
+
+#collapse_button:hover {
+    background-color: #fc7448;
+}
+
+/*
+------------
+Main Content
+------------
+*/
+#main_content {
+    margin-top: 10px;
+    padding: 0px 15px 0px 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-image: url("../img/subtle_patterns/pw_maze_white.png");
+    font-family: 'Merriweather', serif;
+    box-shadow: 6px 6px 3px #888888;
+    min-height: 400px;
+}
+
+hr {
+    display:block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #6c6c6c;
+    margin: 10px 6px 10px 0px;
+    padding 0;
+}
+
+/*
+------
+Footer
+------
+*/
+#footer {
+    margin-top: 10px;
+    padding: 10px 0px 0px 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-image: url("../img/subtle_patterns/pw_maze_white.png");
+    font-family: 'Merriweather', serif;
+    box-shadow: 3px 3px 3px #888888;
+    min-height: 40px;
+    text-align: center;
+}
