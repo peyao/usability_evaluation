@@ -9,7 +9,7 @@ Title Bar
 ---------
 */
 #title_bar {
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 15px 15px 15px 0px;
     border: 1px solid #ccc;
     border-radius: 2px;
@@ -63,11 +63,13 @@ Nav Bar (within Title Bar)
     color: black;
     margin: 0px 0px 0px -10px;
     padding-bottom: 0px;
+    border-radius: 8px;
 }
 
 #home_link:hover {
     color: #fc7448;
     text-decoration: none;
+    /*background-image: url("../img/subtle_patterns/tweed.png");*/
 }
 
 
@@ -75,10 +77,12 @@ Nav Bar (within Title Bar)
     color: black;
     padding: 10px 10px 10px 10px;
     margin-top: -5px;
+    border-radius: 8px;
 }
 
 .navbar .nav > li > a:hover {
     color: #fc7448;
+    /*background-image: url("../img/subtle_patterns/squairy_light_@2X.png");*/
 }
 
 .navHeaderCollapse {
@@ -106,13 +110,13 @@ Main Content
 ------------
 */
 #main_content {
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 0px 15px 0px 20px;
     border: 1px solid #ccc;
     border-radius: 2px;
     background-image: url("../img/subtle_patterns/pw_maze_white.png");
     font-family: 'Merriweather', serif;
-    box-shadow: 6px 6px 3px #888888;
+    box-shadow: 4px 4px 3px #888888;
     min-height: 400px;
 }
 
@@ -127,11 +131,22 @@ hr {
 
 /*
 ------
+Images
+------
+*/
+.lightbox_img {
+    margin-bottom: 15px;
+    border: 1px solid #888888;
+    padding: 3px 3px 3px 3px;
+}
+
+/*
+------
 Footer
 ------
 */
 #footer {
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 10px 0px 0px 20px;
     border: 1px solid #ccc;
     border-radius: 2px;
@@ -140,4 +155,7 @@ Footer
     box-shadow: 3px 3px 3px #888888;
     min-height: 40px;
     text-align: center;
+    
+    /* Applies space under footer, 10px to match the top */
+    margin-bottom: 15px;
 }
