@@ -3,13 +3,18 @@ body {
     background-image: url("../img/subtle_patterns/pixel_weave.png");   
 }
 
+#container_fit {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 /*
 ---------
 Title Bar
 ---------
 */
 #title_bar {
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 15px 15px 15px 0px;
     border: 1px solid #ccc;
     border-radius: 2px;
@@ -157,5 +162,5 @@ Footer
     text-align: center;
     
     /* Applies space under footer, 10px to match the top */
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
