@@ -125,13 +125,39 @@ Main Content
     min-height: 400px;
 }
 
+#main_content p {
+    display: inline-block;
+    vertical-align: middle;
+    float: none; 
+}
+
 hr {
     display:block;
     height: 1px;
     border: 0;
     border-top: 1px solid #6c6c6c;
     margin: 10px 6px 10px 0px;
-    padding 0;
+    padding: 0;
+}
+
+.hr_short {
+    display:block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #6c6c6c;
+    margin: 10px 60px 10px 45px;
+    padding: 0;
+}
+
+.row_p {
+    margin: 0px 15px 0px 15px;
+}
+
+.p_quote {
+    background-image: url("../img/subtle_patterns/kindajean.png");
+    padding: 10px 10px 10px 10px;
+    margin: 5px 25px 20px 20px;
+    font-size: 90%;
 }
 
 /*

@@ -66,20 +66,74 @@
         <div class="row" id="main_content">
             <h3>9. Error Recovery</h3>
             <hr>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <br>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <p class="p_quote">
+                        "Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution." [Neilson]
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        University of Leicester's website handles errors with a typical 404 file not found page, but also implements a dynamic aspect to it, by suggesting to users a list of possibly related pages. This appears to use the site's search function, using the 404 web address as keywords.
+                    </p>
+                </div>
+            </div>
             <div class="row text-center">
                 <div class="col-sm-6">
-                    <a class="fancybox" rel="group" href="../img/0_index/leics.jpg" title="Students' Union Building">
-                       <img class="lightbox_img" src="../img/0_index/tn_leics.jpg" alt="Leicester" />
+                    <a class="fancybox" rel="group" href="../img/9_error_recovery/404_page.png" title="Error Page, reached with random gibberish link (Ex. www2.le.ac.uk/blahblahblah)">
+                       <img class="lightbox_img" src="../img/9_error_recovery/tn_404_page.png" alt="404 Page Gibberish"/>
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a class="fancybox" rel="group" href="../img/0_index/john_foster.png" title="John Foster Pavilion">
-                       <img class="lightbox_img" src="../img/0_index/tn_john_foster.png" alt="John Foster Pavilion" />
+                    <a class="fancybox" rel="group" href="../img/9_error_recovery/404_page_dog.png" title="Error Page, reached with the keyword 'dog' (Ex. www2.le.ac.uk/dog)">
+                       <img class="lightbox_img" src="../img/9_error_recovery/tn_404_page_dog.png" alt="404 Page 'dog'" />
                     </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        The two images above illustrate how the 404 page handles misspelt addresses. The left is just a page create by trying to reach a page with random gibberish <em>(Ex. www2.le.ac.uk/blahblahblah)</em>. However, the image to the right is reached by <em>(Ex. www2.le.ac.uk/dog)</em>. The dynamically generated page actually displays some useful results. If a person were trying to reach a page, but misspelt it, they may be able to find it the correct link through those suggestions alone.
+                    </p>
+                    <p>
+                        Another interesting technique University of Leicester has done for error recovery is shown below.
+                    </p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <a class="fancybox" rel="group" href="../img/9_error_recovery/link_fix.png" title="Link Redirecting. Type in ../student which doesn't exist, we get redirected to ../students">
+                       <img class="lightbox_img" src="../img/9_error_recovery/tn_link_fix.png" alt="Link Redirection" />
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        If you type in <em>www2.le.ac.uk/student</em>, which does not exist, it does not bring you to a 404 page, but rather redirects you to <em>www2.le.ac.uk/students</em>. Note the 's' at the end, and which is the actual <em>Students</em> page.
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <p>
+                        The website also implements field checking into its forms. The following image illustrates this; it checks if the <em>Email Address</em> field has been given a syntactically correct email address. Unfortunately, this feature is not very well refined, for example, it accepts numbers in the first and last name fields.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <a class="fancybox" rel="group" href="../img/9_error_recovery/field_checking.png" title="Field Checking, error found in the email address field.">
+                       <img class="lightbox_img" src="../img/9_error_recovery/tn_field_checking.png" alt="Field Checking" />
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        University of Leicester's website does an overall good job on handling error recovery. It attempts to solve users' errors for them, and offers suggestions when it cannot. It all does this dynamically on the web server, and shows good practice. It would have been nice if they had a nice link to the <em>Help</em> page within the 404 page, and not just in the footer. Another plus, according to Neilson, is that error codes such as 404 are nowhere on the page, and effectively expresses the problem in plain language.
+                    </p>
                 </div>
             </div>
             
