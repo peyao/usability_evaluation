@@ -1,0 +1,131 @@
+Peter Yao - COGS187a
+
+-------------
+1. Visibility
+-------------
+Visibility traits:
+	1. Location markers (where  on the site am I?)
+	2. Separation of sections
+	3. Breadcrumbs
+	
+	Leicester's website initially looks like it has good visibility.
+	there are location markers well placed up top, but it seems to
+	have some organizational quirks like the section for prospective
+	students seems like it would be in the section "Study with Us",
+	but it is in the section "Current Students".
+
+--------
+2. Match
+--------
+Match traits:
+	1. No confusing words (plain natural language)
+	2. Less system oriented terms
+	
+	Looks good. Very little use of strange terms, except Prospectus,
+	but seems like it is a common term for Leicester's main audience.
+
+---------------
+3. User Control
+---------------
+User Control traits:
+	1. Going back? Undoing actions?
+	2. Breadcrumbs?
+	
+	Breadcrumbs are located in some pages, but not all of them. This
+	shows a lack of user control in those areas. Users would have to
+	press the back button on those pages. On the other hand, the
+	breadcrumbs don't necessarily take you back to the page you were
+	previously either. There are several links to the same page.
+
+-------------------
+4. Error Prevention
+-------------------
+Error Prevention traits:
+	1. Error messages
+	2. Help users understand what went wrong
+	
+	Looks pretty good. Form fields handle errors with error messages.
+	When applying for the prospectus, it will highlight fields that
+	are missing, and for the email field, it will highlight it is not
+	an email if you put it random characters.
+
+--------------
+5. Consistency
+--------------
+Consistency traits:
+	1. Similar design traits throughout the site
+	2. Nav bar shouldn't change all the time
+	3. Footer?
+	
+	The site have large sections that are consistent, and once in awhile
+	you get a page that seems to use an older design (A-Z index). The
+	footer only changes between the home page and the rest of the pages.
+
+--------------
+6. Recognition
+--------------
+Recognition traits:
+	1. Home page
+	2. Breadcrumbs
+	3. Useful links
+	
+	The site places its useful links in good locations. It appears they
+	attempt to put common actions in useful places. The breadcrumbs are
+	also well-placed, above the main content of the page, but under the
+	header.
+
+-------------
+7. Efficiency
+-------------
+Efficiency traits:
+	1. Get advanced users to where they want quickly
+	2. Friendly interface for new users to get where they want quickly
+	
+	Advanced users have some links in the footer, or they can just use the
+	search bars. The advanced users (current students) probably want to
+	access Blackboard very often, so they should place the Blackboard link
+	near the top, instead of leaving it hidden in the footer. The new users 
+	are greeted with several search bars (which may be confusing), and an
+	easy to understand sectioning system (Study with Us, Our Research, etc...).
+
+-------------
+8. Aesthetics
+-------------
+Aesthetics traits:
+	1. Minimalism
+	2. No bloat
+	
+	The home page looks very good in terms in minimalism and lack of bloat.
+	However, once you get deeper where there is a lot of content, you begin
+	to wonder if some things are necessary. I believe it is fine for a
+	University's website, but there are definitely some useless links in
+	some locations.
+
+-----------------
+9. Error Recovery
+-----------------
+Error Recovery traits:
+	1. 404 page
+	2. Field checking
+	
+	The 404 page is pretty good. It does a search for your page, in the case
+	you tried typing in a link and it couldn't find the page, this would help
+	with misspellings. Also it does some link fixing for you (i.e. going to
+	../student which doesn't exist transfers you automatically to ../students).
+	The prospectus form has an email address field, which checks if users enter
+	a syntactically correct email (asdf@hello.com is OK, a#hello.com is NOT OK).
+	This will sometimes help, but it probably doesn't see much use as long as
+	users aren't messing around. Still a good feature to have and worth it to
+	have spent time on it.
+
+--------
+10. Help
+--------
+Help traits:
+	1. Where is the link to the Help page located?
+	2. Is the Help page useful?
+	
+	The Help page link is located on the footer of every page. The footer does
+	change though, so that may be a downside. The Help page itself is not bad,
+	it doesn't have any documentation, just links to pages in case you are lost
+	or need a quick link to somewhere you don't remember.
